@@ -1,0 +1,163 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nice Form</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
+
+
+
+<script type="text/javascript">
+            function updateTextColour(value) {
+                document.body.style.color = '#' + value;
+            }
+        </script>
+
+
+</head>
+<body>
+
+
+<div style = "	position: relative;
+	width: 700px;
+	padding: 50px;
+	margin: 0 auto;
+	background-color: #fff;
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2), inset 0 0 50px rgba(0, 0, 0, 0.1);"><h1 style = "text-align:center;color:green;">Application for Employment</h1>
+
+	<form method="post">
+		<p style  ="color:grey">
+		Are you a citizen of the united states?
+		<input name="Checkbox1" type="checkbox">
+		</p>
+		
+		<p style  ="color:grey"> Do you know how to program in Java?
+		<input name="Checkbox2" type="checkbox">
+		</p>
+		
+		<p style  ="color:grey">
+		How many years of programming experience do you have?
+		
+		
+		<select name="Select1">
+		<option>Experience</option>
+		<option>No Experience</option>
+		<option>0-2 Years Experience </option>
+		<option>2-5 Years Experience </option>
+		<option>5-10 Years Experience </option>
+		<option>10+ Years Experience </option>
+		</select>
+		</p>
+			
+			
+			
+		<p style  ="color:grey">	
+		What is your favorite color?
+		
+		<select name="backGround" size="1" onChange="updateTextColour(this.value)">
+                <option value="000000">[Black]</option>
+                <option value="FF0400">[Red]</option>
+                <option value="EFE800">[Yellow]</option>
+                <option value="05EF00">[Green]</option>
+                <option value="0206FF">[Blue]</option>
+            </select>
+
+		</p>
+		
+		<fieldset name="Fieldset1">
+		<legend>How would you rate your programming skills?</legend>
+			<input checked="true" name="Radio1" type="radio" value="1"> Master <br>
+			<input name="Radio1" type="radio" value="2"> Average <br>
+			<input name="Radio1" type="radio" value = "3"> Poor 
+		</fieldset>
+		
+		
+		<p style  ="color:grey">What is your first name?
+			<input name="Text2" type="text"></p>
+			
+		<p style  ="color:grey">What is your last name?	
+			<input name="Text3" type="text"></p>
+			
+		<p style  ="color:grey">Tell us about yourself: <textarea name="TextArea1" cols="50" rows="6"></textarea></p>
+		<p style  ="color:grey">Where do you see yourself in 5 years? <textarea name="TextArea1" cols="50" rows="6"></textarea></p>
+		
+		
+		<input name="Reset" type="button" value="Submit" style = "	-moz-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	box-shadow:inset 0px 1px 0px 0px #dcecfb;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #bddbfa), color-stop(1, #80b5ea) );
+	background:-moz-linear-gradient( center top, #bddbfa 5%, #80b5ea 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#bddbfa', endColorstr='#80b5ea');
+	background-color:#bddbfa;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;" />
+		
+		<input name="Button1" type="reset" value="Reset!" style = "-moz-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f5978e;
+	box-shadow:inset 0px 1px 0px 0px #f5978e;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f24537), color-stop(1, #c62d1f) );
+	background:-moz-linear-gradient( center top, #f24537 5%, #c62d1f 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f24537', endColorstr='#c62d1f');
+	background-color:#f24537;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #d02718;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #810e05;" />
+		</form>
+		
+</div>
+</body>
+</html>
